@@ -1,4 +1,5 @@
 <?php
+
 namespace ResourceCatalog\Model;
 
 interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTypeIdentify, IResourceCatalogTypeEnName, IResourceCatalogTypeDoublePublicity, IResourceCatalogTypeRedBlackList, IResourceCatalogIsConfirm
@@ -90,13 +91,18 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'SPFYSXK' => 83,
         'FDCKFQYZZXX' => 84,
         'JGRYXXSFGJ' => 85,
-        'SYDWJBXX'=>86,
-        'HTLY'=>87,
+        'SYDWJBXX' => 86,
+        'HTLY' => 87,
         'QYHYSJ' => 88,
-        'ZDRQXYDA'=>89,
-        'XYSFSQ'=>90,
-        'CCJCJG'=>91,
-        //@position_type_92
+        'ZDRQXYDA' => 89,
+        'XYSFSQ' => 90,
+        'CCJCJG' => 91,
+        'XZCJ' => 92,
+        'XZJDJC' => 93,
+        'XZJL' => 94,
+        'XZQR' => 95,
+        'XZQZ' => 96,
+        //@position_type_97
         'TEST' => 500,
     );
 
@@ -106,6 +112,11 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['XBXZCF'],
             self::TYPE['XBXZXK'],
             self::TYPE['QYHYSJ'],
+            self::TYPE['XZQZ'],
+            self::TYPE['XZQR'],
+            self::TYPE['XZJL'],
+            self::TYPE['XZJDJC'],
+            self::TYPE['XZCJ'],
         ),
         IUserGroup::ID['FGW'] => array(
             self::TYPE['ZDRQXYDA'],
